@@ -4,42 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
+      <br>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
+        <br>
           <h3>Overview</h3>
           <ul>
-              <li>Hypertext Markup Language is one of three core languages used in web development: HTML, CSS, and JavaScript.</li>
-              <li>HTML is used to create the structure of a website.</li>
-              <li>HTML elements provide content and the basic framework for all pages on the website.</li>
-              <li>The first line of code in the file is the !DOCTYPE, which tells the browser what documet type it should expect when it is opened.</li>
-              <li>For HTML, the !DOCTYPE html declaration tells the browser to expect HTML on the page.</li>
-              <li>The next line of code has the HTML opening tag, which represents the root, or start, of the HTML document.</li>
-              <li>Inside this HTML opening tag, we designate an attribute of lang="en", which tells the browser that the language for the webpage is English.</li>
-              <li>HTML attributes define additional information about an element, and they are always defined in the BEGINNING ELEMENT.</li>
+              <li>HTML stands for Hypertext Markup Language.</li>
+              <li>One of three core languages used in web development: HTML, CSS, and JavaScript.</li>
+              <li>It's used to create the structure of a website.</li>
+              <li>HTML Elements: Provide content and the basic framework for all pages on the website.</li>
+              <li>!DOCTYPE: The first line of code in the file, which lets the browser know what type of document to expect when the file is opened.</li>
+              <li>For HTML, the "!DOCTYPE html" declaration tells the browser to expect HTML on the page.</li>
+              <li>lang: The second line of code in the file; an attribute that tells the browser what the language of a webpage is.</li>
+              <li>Opening Tag: Represents the root, or start, of the HTML document.</li>
+              <li>Inside the HTML opening tag, we designate an attribute of lang="en", which tells the browser that the language for the webpage is English.</li>
+              <li>HTML Attributes: Define additional information about an element; they are always defined in the beginning element.</li>
           </ul>
+          <br>
           <h3>Head Element</h3>
           <ul>
               <li>The head element contains information, or metadata, for the web application.</li>
-              <li>Metadata is data about our webpage used by the browser to effectively serve the webpage to users.</li>
+              <li>Metadata: Data about the webpage that is used by the browser to effectively serve the webpage to users.</li>
               <li>Typically, metadata is not seen by users, but it contains important information about accessibility, search engines, and performance.</li>
               <li>Inside the head element, we can use the following metadata elements: title, style, base, link, meta, and script.</li>
-              <li>The title element defines the title of the document, showing it in the webpage's tab. This element is required and is important for Search Engine Optimization.</li>
-              <li>The style element defines the CSS styles associated with a website.</li>
-              <li>The base element defines the base URL for a webpage.</li>
-              <li>The link element connects an external resource to the HTML document.</li>
-              <li>The meta element defines metadata, such as the character set, description, keywords, author, and viewport. </li>
+              <li>Title Element: Defines the title of the document, showing it in the webpage's tab; this element is required and is important for Search Engine Optimization.</li>
+              <li>Style Element: Defines the CSS styles associated with a website.</li>
+              <li>Base Element: Defines the base URL for a webpage.</li>
+              <li>Link Element: Connects an external resource to the HTML document.</li>
+              <li>Meta Element: Defines metadata, such as the character set, description, keywords, author, and viewport. </li>
               <li>Meta element examples: The charset element sets the character encoding; The http-equiv element sets an HTTP header for content; The viewport element sets the default view for the webpage.</li>
               <li>The script element embeds client-side scripts in the HTML document.</li>
               <li>All of these meta elements contain information about the page that is used by the browser, but won't be visible to the user.</li>
           </ul>
+          <br>
           <h3>Body Element</h3>
           <ul>
               <li>The body element of an HTML document contains the content shown to users when they look at the webpage in a browser.</li>
@@ -67,17 +74,21 @@
               <li>Each section element has an id attribute that matches the topic. HTML uses the id attribute to identify elements and select them.</li>
               <li>Each section element also has a class attribute, which works in a similar way to the id.</li>
           </ul>
+          <br>
           <h3>Main Element</h3>
+          <br>
           <h3>Footer Element</h3>
           <ul>
               <li>The footer appears at the bottom of the page.</li>
               <li>It usually contains the author, copyright, sitemap, and navigation.</li>
           </ul>
+          <br>
       </section>
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here.</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
         </ul>
       </section>
       <section class="card" id="git-section">
@@ -91,7 +102,7 @@
           <li>git add -A: stages all files and their changes in the working branch</li>
           <li>git commit -m: commits changes that have been staged to the repository; use the -m flag to associate a message with the commit that is a short descriptive message of the changes implemented</li>
           <li>git pull origin main: used to check if current, local branch is up to date/synced with the remote branch in GitHub before opening a pull request; this is extremely important in a team environment</li>
-          <li>***It is a good habit to always pull the base branch into your feature branch before pushing up any code. You should see a message in your terminal after git pull origin main that says "Already up to date."***</li>
+          <li>It is a good habit to always pull the base branch into your feature branch before pushing up any code. You should see a message in your terminal after git pull origin main that says "Already up to date."</li>
           <li>git push origin feature/feature-name: pushes up all of the changes to the remote repository</li>
         </ul>
       </section>
