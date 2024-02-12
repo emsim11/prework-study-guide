@@ -1,11 +1,7 @@
 # prework-study-guide
 
 ## Boot Camp Pre-Work Study Guide for Columbia
-- [Description](https://github.com/emsim11/prework-study-guide/edit/main/README.md#description)
-- [Installation](https://github.com/emsim11/prework-study-guide/edit/main/README.md#installation)
-- [Usage](https://github.com/emsim11/prework-study-guide/edit/main/README.md#usage)
-- [Credits](https://github.com/emsim11/prework-study-guide/edit/main/README.md#credits)
-- [License](https://github.com/emsim11/prework-study-guide/edit/main/README.md#license)
+"Create Table of Contents"
 
 ## Description
 This web application address a real-world problem that boot camp students encounter: there is so much information for boot camp students that it can be overwhelming at times to keep track of it all. Since webpages are an excellent way to display and store information in a user-friendly way, I have built a website that can be used as a study guide! The web development project will be done when the website holds all of the notes that I take throughout the pre-work modules so that, as a boot camp student, I will have all of these notes in one place.
